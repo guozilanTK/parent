@@ -11,11 +11,11 @@
     <url>https://github.com/guozilanTK/parent</url>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
         <!--  编译jdk版本  -->
         <jdk>1.8</jdk>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>${jdk}</maven.compiler.source>
+        <maven.compiler.target>${jdk}</maven.compiler.target>
         <!--  依赖版本  -->
         <mapper>4.0.4-beta2</mapper>
         <mapper-module>1.0.5-beta1</mapper-module>
